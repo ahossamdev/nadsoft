@@ -1,0 +1,27 @@
+{
+  "name": "nadsoft-task",
+  "version": "1.0.0",
+  "description": "nadsoft crud operation on user task",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index",
+    "start": "node index",
+    "test-init": "npx jasmine init",
+    "test": "jasmine"
+  },
+  "author": "Ahmed Hossam",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "countries-list": "^3.0.6",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "jasmine": "^5.1.0",
+    "prisma": "^5.8.1"
+  }
+}
