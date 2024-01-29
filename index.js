@@ -1,5 +1,4 @@
 const express = require("express");
-const axios = require("axios");
 const app = express();
 const { errorHandler } = require("./middleware/errorHandler");
 const { logRequest } = require("./middleware/loggingRequest");

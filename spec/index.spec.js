@@ -86,7 +86,7 @@ describe("server", () => {
     let request = {};
     beforeAll(async () => {
       const res = await axios.delete(
-        "http://localhost:3000/user/delete/65b5b018194ee83040d285b3",
+        "http://localhost:3000/user/delete/65b659c3ac54d651f16940aa",
         {
           headers: {
             name: process.env.USER_NAME || "nadsoft",

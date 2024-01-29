@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "961b846b-315f-4ef1-9661-2cdc77bca2b9",
+		"name": "nadsoft",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18877764",
+		"_collection_link": "https://www.postman.com/red-meadow-761468/workspace/nadsott/collection/18877764-961b846b-315f-4ef1-9661-2cdc77bca2b9?action=share&source=collection_link&creator=18877764"
+	},
+	"item": [
+		{
+			"name": "Retrieving Users",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DeletingUsers with credentials",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "name",
+						"value": "nadsoft",
+						"type": "text"
+					},
+					{
+						"key": "password",
+						"value": "nadsoft",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/delete/65b5ab0d84740eeb4ac69e23",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"delete",
+						"65b5ab0d84740eeb4ac69e23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletingUsers",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "name",
+						"value": "nadsoft",
+						"type": "text"
+					},
+					{
+						"key": "password",
+						"value": "nadsoft",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/delete/65b5ab0d84740eeb4ac69e23",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"delete",
+						"65b5ab0d84740eeb4ac69e23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adding Users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/user/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Updating Users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/user/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
