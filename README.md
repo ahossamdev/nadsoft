@@ -21,6 +21,3 @@ Clone the repository and install the dependencies to set up the project locally.
 git clone https://github.com/ahossamdev/nadsoft.git
 cd nadsoft-task
 npm install
-
-
-
