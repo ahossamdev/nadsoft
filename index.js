@@ -22,7 +22,7 @@ app.use("/user", deletion_router);
 app.use("/users", retreiving_router);
 app.use("/user", updating_router);
 
-// erreor handler middleware:
+// error handler middleware:
 app.use(errorHandler);
 
 // server bootstrapping:
